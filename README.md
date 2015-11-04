@@ -1,6 +1,8 @@
 # agar.io Friends connector
 A simple python script helps you connect you and your friends to connect to the same agar.io server.
 
+### !!! WARNING: This script no longer works :( Please fork and make a pull request if you have a solution!
+
 ## How does it work?
 When you open [http://agar.io](http://agar.io) in your browser, it first make a ```POST``` request to ```http://m.agar.io``` and which then it returns a address of the server (agar.io room) and a password like session key that requires to authenticate the session when entering the room.
 
